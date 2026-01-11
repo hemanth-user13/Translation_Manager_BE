@@ -1,0 +1,15 @@
+{
+  "project_name": "my-react-app",
+  "languages": {
+    "en": "English",
+    "de": "German"
+  },
+  "data": {
+    "common": {
+      "save": {
+        "en": "Save",
+        "de": "Speichern"
+      }
+    }
+  }
+}
