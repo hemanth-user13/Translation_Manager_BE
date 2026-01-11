@@ -1,6 +1,6 @@
 from fastapi import APIRouter,HTTPException
-from schemas.translation import TranslatedPayload
-from services.file_services import (
+from app.schemas.translation import TranslatedPayload
+from app.services.file_services import (
     save_translation,
     read_translation,
     delete_translations

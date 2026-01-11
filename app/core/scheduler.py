@@ -1,6 +1,6 @@
 from apscheduler.schedulers.background import BackgroundScheduler
 from datetime import datetime,timedelta
-from core.config import DATA_FILE
+from app.core.config import DATA_FILE
 
 def cleanup_translation():
     if not DATA_FILE.exists():

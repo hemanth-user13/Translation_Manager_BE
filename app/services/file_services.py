@@ -1,5 +1,5 @@
 import json
-from core.config import DATA_FILE
+from app.core.config import DATA_FILE
 from pathlib import Path
 from typing import Optional, Dict, Any
 

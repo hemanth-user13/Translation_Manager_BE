@@ -1,6 +1,6 @@
 from fastapi import FastAPI
-from api.routes import router
-from core.scheduler import start_scheduler
+from app.api.routes import router
+from app.core.scheduler import start_scheduler
 
 
 app=FastAPI(
