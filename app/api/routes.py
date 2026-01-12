@@ -89,7 +89,7 @@ def delete_translation():
         return {
             "status": "success",
             "data": {
-                "message": "Translation data deleted successfully"
+               
             }
         }
 
